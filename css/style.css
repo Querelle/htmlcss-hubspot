@@ -1,0 +1,120 @@
+/* RESET */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* REGOLE GENERALI */
+.testa, .corpo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #39587e
+}
+.centratore {
+  width: 56%;
+  margin: auto;
+}
+.float-left {
+  float: left;
+}
+.float-rght {
+  float: right;
+}
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* FINE REGOLE GENERALI */
+
+/* SEZIONE DI ACCESSO */
+.testa .backgd-accesso {
+  background-color: #f5f8fa;
+  border-bottom: solid 1px #cbd6e2;
+}
+.arrow {
+  padding-left: 10px;
+}
+.testa .accesso > * {
+  padding: 30px 0px;
+  display: inline-block;
+}
+.testa .accesso .quick-nav .fa-globe{
+  padding-right: 10px;
+}
+.testa .accesso .quick-nav .lang{
+  padding-right: 20px;
+}
+.testa .accesso .quick-nav #contact {
+  border-left: solid 1px #cbd6e2;
+  padding-left: 20px;
+}
+.fa-search {
+  color: #00a4bd;
+  margin-right: 20px;
+}
+.testa .accesso .login .log-in {
+  color: #ff7a59;
+  background-color: #FFFFFF;
+  padding: 15px 20px;
+  border: solid 1px #ff7a59;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+.testa .accesso .login .get-hs {
+  color: #FFFFFF;
+  background-color: #ff7a59;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+/* fine sezione di accesso */
+
+/* navigation bar */
+.menu-bar {
+  padding: 30px 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.menu-bar .menu > li {
+  display: inline-block;
+  padding-right: 20px;
+  line-height: 35px;
+}
+/* fine navigation bar */
+
+/* get HubSpot banner */
+.testa .backgd-get-hs {
+  background-image: url("../img/jumbotron.png");
+  background-position: center;
+  background-size: 100vw;
+  height: 751px;
+}
+.testa .get-hs-banner .wrap{
+  position: relative;
+  top: 100px;
+  width: 420.5px;
+}
+.testa .backgd-get-hs .wrap h1 {
+  font-size: 3.5em;
+  padding-bottom: 30px;
+}
+.testa .backgd-get-hs .wrap p {
+  font-size: 16px;
+}
+.testa .backgd-get-hs .wrap .get-hs{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #ff7a59;
+  padding: 30px 30px;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.testa .backgd-get-hs .wrap .offerta {
+  width: 250px;
+}

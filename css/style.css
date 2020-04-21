@@ -122,6 +122,7 @@
 /* FINE HEADER */
 
 /* CORPO */
+/* elementi comuni */
 .corpo .backgd-services {
   background-color: #f5f8fa;
   padding-top: 40px;
@@ -132,19 +133,14 @@
   padding: 40px;
   background-color: #FFFFFF;
   border-radius: 5px;
-}
-.corpo .services .service:nth-of-type(3n+2) {
-  margin: 2%;
-}
-.service ul{
-  list-style-type: none;
-}
-.service ul li:nth-child(1n+2){
-  padding-top: 10px;
+  margin-bottom: 50px;
 }
 .corpo .service > *{
   display: block;
   padding-bottom: 25px;
+}
+.service ul{
+  list-style-type: none;
 }
 .get-star {
   font-weight: bold;
@@ -155,9 +151,44 @@
   border-radius: 5px;
   margin: 0px 10px;
 }
-.fa-check-circle, .fa-dot-circle {
-  padding-right: 8px;
-  color: #ff7a59;
+/* elementi particolari */
+.services .integration {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.corpo .services #integration-img{
+  width: 25%;
+}
+.corpo .services .crm {
+  width: 100%;
+  padding: 40px 150px;
+}
+.corpo .services .crm > * {
+  display: inline-block;
+  padding-bottom: 0px;
+}
+.corpo .services .crm .graphic img {
+  padding-bottom: 20px;
+}
+.corpo .services .crm .description {
+  width: 80%;
+  padding-left: 50px;
+}
+.corpo .services .crm .description > *{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.corpo .services .crm hr {
+  border: 1px solid grey;
+  width: 60%;
+  margin: 10px 0px 0px 0px;
+}
+.corpo .services .crm .description ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+.service ul li:nth-child(1n+2){
+  padding-top: 10px;
 }
 .corpo .services .info{
   background-color: #f5f8fa;

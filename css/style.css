@@ -30,7 +30,8 @@
 }
 /* FINE REGOLE GENERALI */
 
-/* SEZIONE DI ACCESSO */
+/* HEADER */
+/* sezione di accesso */
 .testa .backgd-accesso {
   background-color: #f5f8fa;
   border-bottom: solid 1px #cbd6e2;
@@ -71,7 +72,6 @@
   border-radius: 5px;
   margin: 0px 10px;
 }
-/* fine sezione di accesso */
 
 /* navigation bar */
 .menu-bar {
@@ -84,7 +84,6 @@
   padding-right: 20px;
   line-height: 35px;
 }
-/* fine navigation bar */
 
 /* get HubSpot banner */
 .testa .backgd-get-hs {
@@ -135,12 +134,32 @@
   border-radius: 5px;
   margin-bottom: 50px;
 }
+.corpo .service .centro {
+  text-align: center;
+}
 .corpo .service > *{
   display: block;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.service .centro > * {
+  padding: 15px;
 }
 .service ul{
   list-style-type: none;
+}
+.fa-check-circle {
+  padding-right: 8px;
+  color: #ff7a59;
+}
+.corpo .services h2{
+  font-size: 2em;
+}
+.services .service-icon {
+  width: 100px;
+  height: 100px;
+}
+.services .grassetto {
+  font-weight: bold;
 }
 .get-star {
   font-weight: bold;
@@ -151,48 +170,63 @@
   border-radius: 5px;
   margin: 0px 10px;
 }
+.service ul li:nth-child(1n+2){
+  padding-top: 10px;
+}
+
 /* elementi particolari */
+/* integration */
 .services .integration {
   text-align: center;
   margin-bottom: 40px;
 }
 .corpo .services #integration-img{
   width: 25%;
-}
-.corpo .services .crm {
+
+/* crm */
+.services .crm {
   width: 100%;
   padding: 40px 150px;
 }
-.corpo .services .crm > * {
+.services .crm > * {
   display: inline-block;
   padding-bottom: 0px;
 }
-.corpo .services .crm .graphic img {
+.services .crm .graphic {
+  text-align: center;
+}
+.services .crm .graphic img {
   padding-bottom: 20px;
 }
-.corpo .services .crm .description {
+.services .crm .description {
   width: 80%;
   padding-left: 50px;
 }
-.corpo .services .crm .description > *{
+.services .crm .description > *{
   display: inline-block;
   margin-bottom: 20px;
 }
-.corpo .services .crm hr {
+.services .crm hr {
   border: 1px solid grey;
   width: 60%;
   margin: 10px 0px 0px 0px;
 }
-.corpo .services .crm .description ul li {
+.services .crm .description ul li {
   display: inline-block;
   padding-right: 30px;
 }
-.service ul li:nth-child(1n+2){
-  padding-top: 10px;
+
+/* marketing */
+.services .mrkt{
+  margin-right: 8px;
 }
-.corpo .services .info{
-  background-color: #f5f8fa;
+
+/* sales*/
+.services .sales{
+  margin: 0px 43px;
 }
-.corpo .services h2{
-  font-size: 2em;
+
+/* service hub */
+.services .service-hub{
+  margin-left: 8px;
 }

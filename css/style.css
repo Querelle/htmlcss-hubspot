@@ -23,6 +23,9 @@
 .float-rght {
   float: right;
 }
+.centro {
+  text-align: center;
+}
 .clearfix {
   content: "";
   display: table;
@@ -134,9 +137,6 @@
   border-radius: 5px;
   margin-bottom: 50px;
 }
-.corpo .service .centro {
-  text-align: center;
-}
 .corpo .service > *{
   display: block;
   margin-bottom: 25px;
@@ -151,7 +151,7 @@
   padding-right: 8px;
   color: #ff7a59;
 }
-.corpo .services h2{
+h2{
   font-size: 2em;
 }
 .services .service-icon {
@@ -228,6 +228,34 @@
 }
 
 /* service hub */
-.services .service-hub{
+.services .service-hub {
   margin-left: 8px;
+}
+/* award */
+.award *{
+  color: #FFFFFF;
+}
+.award .presentazione {
+  padding: 40px;
+}
+.award .presentazione > p {
+  padding-top: 20px;
+}
+.backgd-award {
+  background-color: #00b8a9;
+}
+.award .col {
+  width: 25%;
+}
+.award .col .box > * {
+  padding-bottom: 20px;
+}
+.award .col .box {
+  padding-top: 20px;
+}
+.award .col:nth-of-type(1n+3) {
+  border-left: 1px solid;
+}
+.award .col .box:first-child {
+  border-bottom: 1px solid;
 }

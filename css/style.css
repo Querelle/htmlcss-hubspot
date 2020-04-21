@@ -155,7 +155,13 @@
   border-radius: 5px;
   margin: 0px 10px;
 }
-.fa-check-circle {
+.fa-check-circle, .fa-dot-circle {
   padding-right: 8px;
   color: #ff7a59;
+}
+.corpo .services .info{
+  background-color: #f5f8fa;
+}
+.corpo .services h2{
+  font-size: 2em;
 }

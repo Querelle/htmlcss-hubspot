@@ -118,3 +118,21 @@
 .testa .backgd-get-hs .wrap .offerta {
   width: 250px;
 }
+/* fine get HubSpot banner */
+/* FINE HEADER */
+
+/* CORPO */
+.corpo .backgd-services {
+  background-color: #f5f8fa;
+  padding-top: 40px;
+}
+.corpo .service {
+  display: inline-block;
+  width: 30%;
+  padding: 40px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.corpo .services .service:nth-of-type(3n+2) {
+  margin: 2%;
+}

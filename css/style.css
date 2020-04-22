@@ -7,7 +7,7 @@
 /* FINE RESET */
 
 /* REGOLE GENERALI */
-.testa, .corpo {
+.testa, .corpo, .piede {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -264,12 +264,12 @@ h2{
 }
 
 /* collaborazioni */
-/* .collab {
+.collab {
   background-image: url("../img/woman.webp");
   background-repeat: no-repeat;
-  background-position: 95% -95%;
+  background-position: 95% 75%;
   background-size: 310px;
-} */
+}
 .collab > * {
   padding: 50px 0px;
 }
@@ -297,16 +297,19 @@ h2{
 /* FINE CORPO */
 
 /* FOOTER */
+.piede *{
+  color: #FFFFFF;
+}
+
 /* menu extended */
 .backgd-footer {
   background-color: #33475b;
 }
 .menu-ext {
-  color: #FFFFFF;
   padding-top: 60px;
 }
 .menu-ext div:nth-of-type(1n +2) {
-  margin-left: 55px;
+  margin-left: 85px;
 }
 .menu-ext .tool .menu > li {
   padding-top: 20px;
@@ -325,4 +328,20 @@ h2{
 }
 .fab {
   width: 20px;
+}
+
+/* policy */
+.language {
+  padding-top: 60px;
+}
+.policy {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.policy hr {
+  color: #7c98b6;
+  margin: 30px 0px;;
+}
+.privacy > span {
+  padding-left: 10px;
 }

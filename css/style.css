@@ -301,18 +301,28 @@ h2{
 .backgd-footer {
   background-color: #33475b;
 }
-.menu-ext * {
+.menu-ext {
   color: #FFFFFF;
+  padding-top: 60px;
 }
 .menu-ext div:nth-of-type(1n +2) {
-  margin-left: 59px;
-
+  margin-left: 55px;
 }
-.menu-ext div ul li {
+.menu-ext .tool .menu > li {
   padding-top: 20px;
 }
-.inline-block > *{
+.inline-list > *{
   display: inline-block;
   padding-right: 10px;
-  border: solid red 1px;
+}
+.contact{
+  display: inline-block;
+  font-size: 14px;
+  color: #33475b;
+  background-color: #FFFFFF;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.fab {
+  width: 20px;
 }

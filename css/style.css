@@ -23,7 +23,7 @@
 .float-rght {
   float: right;
 }
-.centro {
+.align-center {
   text-align: center;
 }
 .clearfix {
@@ -31,7 +31,7 @@
   display: table;
   clear: both;
 }
-.get-hs{
+.get-hs {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
@@ -41,8 +41,15 @@
   border-radius: 5px;
   margin: 20px 0px;
 }
-ul{
+ul {
   list-style-type: none;
+}
+.grassetto {
+  font-weight: bold;
+}
+.hover:hover {
+  color: #FFFFFF;
+  opacity: 0.9;
 }
 /* FINE REGOLE GENERALI */
 
@@ -59,21 +66,21 @@ ul{
   padding: 30px 0px;
   display: inline-block;
 }
-.testa .accesso .quick-nav .fa-globe{
+.testa .fa-globe{
   padding-right: 10px;
 }
-.testa .accesso .quick-nav .lang{
-  padding-right: 20px;
-}
-.testa .accesso .quick-nav #contact {
-  border-left: solid 1px #cbd6e2;
-  padding-left: 20px;
-}
-.fa-search {
+.testa .fa-search {
   color: #00a4bd;
   margin-right: 20px;
 }
-.testa .accesso .login .log-in {
+.testa .lang{
+  padding-right: 20px;
+}
+.testa #contact {
+  border-left: solid 1px #cbd6e2;
+  padding-left: 20px;
+}
+.testa .login .log-in {
   color: #ff7a59;
   background-color: #FFFFFF;
   padding: 15px 20px;
@@ -81,7 +88,7 @@ ul{
   border-radius: 5px;
   margin: 0px 10px;
 }
-.testa .accesso .login .get-hs {
+.testa .login .get-hs {
   color: #FFFFFF;
   background-color: #ff7a59;
   padding: 15px 20px;
@@ -92,11 +99,10 @@ ul{
 /* navigation bar */
 .menu-bar {
   padding: 30px 0px;
-  font-weight: bold;
   font-size: 16px;
 }
 .menu-bar .menu > li {
-  display: inline-block;
+
   padding-right: 20px;
   line-height: 35px;
 }
@@ -113,14 +119,14 @@ ul{
   top: 100px;
   width: 420.5px;
 }
-.testa .backgd-get-hs .wrap h1 {
+.testa .wrap h1 {
   font-size: 3.5em;
   padding-bottom: 30px;
 }
-.testa .backgd-get-hs .wrap p {
+.testa .wrap p {
   font-size: 16px;
 }
-.testa .backgd-get-hs .wrap .offerta {
+.testa .wrap .offerta {
   width: 250px;
 }
 /* fine get HubSpot banner */
@@ -158,9 +164,6 @@ h2{
   width: 100px;
   height: 100px;
 }
-.services .grassetto {
-  font-weight: bold;
-}
 .get-star {
   font-weight: bold;
   text-align: center;
@@ -180,14 +183,13 @@ h2{
 /* elementi particolari */
 /* integration */
 .services .integration {
-  text-align: center;
   margin-bottom: 40px;
 }
 .corpo .services #integration-img{
   width: 25%;
 }
-/* crm */
 
+/* crm */
 .services .crm {
   width: 100%;
   padding: 40px 150px;
@@ -195,9 +197,6 @@ h2{
 .services .crm > * {
   display: inline-block;
   padding-bottom: 0px;
-}
-.services .crm .graphic {
-  text-align: center;
 }
 .services .crm .graphic img {
   padding-bottom: 20px;
@@ -216,7 +215,6 @@ h2{
   margin: 10px 0px 0px 0px;
 }
 .services .crm .description ul li {
-  display: inline-block;
   padding-right: 30px;
 }
 
@@ -234,7 +232,11 @@ h2{
 .services .service-hub {
   margin-left: 8px;
 }
+
 /* award */
+.award {
+  padding-bottom: 40px;
+}
 .award *{
   color: #FFFFFF;
 }
@@ -273,26 +275,25 @@ h2{
 .collab > * {
   padding: 50px 0px;
 }
-.customer {
+.corpo .collab .customer {
   width: 300px;
   display: inline-block;
   padding-left: 100px;
 }
-.sponsor {
-  text-align: right;
+.corpo .collab .sponsor {
   width: 60%;
   display: inline-block;
   padding-top: 60px;
 }
-.sponsor > img {
+.corpo .collab .sponsor > img {
   width: 130px;
   padding: 5px 10px;
   vertical-align: middle;
 }
-.collab .cta {
+.corpo .collab .cta {
   width: 40%;
 }
-.collab .cta > p{
+.corpo .collab .cta > p{
   padding: 20px 0px;
 }
 /* FINE CORPO */
@@ -309,17 +310,20 @@ h2{
 .menu-ext {
   padding-top: 60px;
 }
-.menu-ext div:nth-of-type(1n +2) {
+.menu-ext menu:nth-of-type(1n+2) {
   margin-left: 85px;
 }
 .menu-ext .tool .menu > li {
   padding-top: 20px;
 }
+.fab {
+  width: 20px;
+}
 .inline-list > *{
   display: inline-block;
   padding-right: 10px;
 }
-.contact{
+.piede #contact {
   display: inline-block;
   font-size: 14px;
   color: #33475b;
@@ -327,22 +331,19 @@ h2{
   padding: 10px 15px;
   border-radius: 5px;
 }
-.fab {
-  width: 20px;
-}
 
 /* policy */
 .language {
   padding-top: 60px;
 }
-.policy {
+.piede .policy {
   width: 100%;
   padding-bottom: 50px;
 }
-.policy hr {
+.piede .policy hr {
   color: #7c98b6;
   margin: 30px 0px;;
 }
-.privacy > span {
+.piede .policy .privacy > span {
   padding-left: 10px;
 }

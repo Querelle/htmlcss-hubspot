@@ -41,6 +41,9 @@
   border-radius: 5px;
   margin: 20px 0px;
 }
+ul{
+  list-style-type: none;
+}
 /* FINE REGOLE GENERALI */
 
 /* HEADER */
@@ -143,9 +146,6 @@
 }
 .service .centro > * {
   padding: 15px;
-}
-.service ul{
-  list-style-type: none;
 }
 .fa-check-circle {
   padding-right: 8px;
@@ -264,6 +264,12 @@ h2{
 }
 
 /* collaborazioni */
+/* .collab {
+  background-image: url("../img/woman.webp");
+  background-repeat: no-repeat;
+  background-position: 95% -95%;
+  background-size: 310px;
+} */
 .collab > * {
   padding: 50px 0px;
 }
@@ -279,11 +285,34 @@ h2{
   padding-top: 60px;
 }
 .sponsor > img {
-  width: 150px;
+  width: 130px;
+  padding: 5px 10px;
 }
 .collab .cta {
   width: 40%;
 }
 .collab .cta > p{
   padding: 20px 0px;
+}
+/* FINE CORPO */
+
+/* FOOTER */
+/* menu extended */
+.backgd-footer {
+  background-color: #33475b;
+}
+.menu-ext * {
+  color: #FFFFFF;
+}
+.menu-ext div:nth-of-type(1n +2) {
+  margin-left: 59px;
+
+}
+.menu-ext div ul li {
+  padding-top: 20px;
+}
+.inline-block > *{
+  display: inline-block;
+  padding-right: 10px;
+  border: solid red 1px;
 }

@@ -64,7 +64,6 @@ ul {
 }
 .testa .accesso > * {
   padding: 10px 0px;
-  display: inline-block;
 }
 .testa .quick-nav > * {
   line-height: 50px;
@@ -220,20 +219,13 @@ h2{
 .services .crm .description ul li {
   padding-right: 30px;
 }
-
-/* marketing */
-.services .mrkt{
-  margin-right: 8px;
+.services .service:nth-of-type(2n+1){
+  width: 30%;
 }
 
 /* sales*/
 .services .sales{
-  margin: 0px 43px;
-}
-
-/* service hub */
-.services .service-hub {
-  margin-left: 8px;
+  margin: 0px 5%;
 }
 
 /* award */
@@ -252,20 +244,25 @@ h2{
 .backgd-award {
   background-color: #00b8a9;
 }
-.award .col {
+
+/* griglia award */
+.award .box {
   width: 25%;
 }
-.award .col .box > * {
+.award .box > * {
   padding-bottom: 20px;
 }
-.award .col .box {
+.award .box {
   padding-top: 20px;
 }
-.award .col:nth-of-type(1n+3) {
-  border-left: 1px solid;
+.award .riga {
+  width: 100%;
 }
-.award .col .box:first-child {
+.award .riga-superiore {
   border-bottom: 1px solid;
+}
+.award .riga .box:nth-of-type(1n+2) {
+  border-left: 1px solid;
 }
 
 /* collaborazioni */
